@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    
+        <title>Add book</title>
+        <meta charset="UTF-8">
+      
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="f_pro.css">
+
+    </head>
+    <body>
+         <div class="navbar">
+  <a class="active">Library Management System</a>
+  <a class="active" href="add.html">+Add Book</a>
+
+  <a  href="issue.html">Issue Book</a>
+  <a  href="return1.html">Return Book</a>
+  <a href="index.jsp" style="float:right">Logout</a>
+</div>
+
+        <center>
+            
+            <fieldset>
+                <h1>Book details to add to Library</h1>
+                    <form method="POST" action="add.jsp">
+                        <table border="0">
+                            <tbody>
+                                <tr> <td>BOOK ID:</td><td><input type="text" name="id" value="" /></td></tr>
+                                <tr><td>BOOK Name: </td><td><input type="text" name="title" value=""  /></td></tr>
+                                 <tr> <td>Author:</td><td><input type="text" name="author" value="" /></td></tr>
+                                  <tr> <td>Publication:</td><td><input type="text" name="publi" value="" /></td></tr>
+                            </tbody>
+                        </table>
+                     <input class="b1" type="submit" value="ADD" /><br><br>  
+                    </form>
+            </fieldset> 
+    </center>
+    </body>
+</html>

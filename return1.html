@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Return book</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="f_pro.css">
+
+    </head>
+    <body>
+               <div class="navbar">
+  <a class="active">Library Management System</a>
+  
+  <a  href="add.html">+ADD Book</a>
+    <a  href="student.html">Issue Book</a>
+  <a class="active" href="return1.html">-Return</a>
+  <a href="index.jsp" style="float:right">Logout</a>
+</div>
+    <center>
+        <h1>Return Book to Library</h1>
+      
+        <fieldset>
+            <b style="color: white;">Return book details</b>
+            <form action="return.jsp" method="POST">
+            <table border="0">
+                <tbody>
+                    <tr> <td>BOOK ID:</td><td><input type="text" name="id" value="" /></td></tr>
+                    <tr><td>BOOK TITLE  </td><td><input type="text" name="title" value=""  /></td></tr>
+                </tbody>
+            </table>
+            <input class="b1" type="submit" value="RETURN" /><br><br>  
+          </form>
+        </fieldset>
+    </center>     
+    </body>
+</html>

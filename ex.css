@@ -1,0 +1,64 @@
+h1
+{
+    color: #3f1621;
+    border: solid;
+    border-color: #3f1621;
+    font-size: 50px;
+}
+body
+{
+     
+     background-image: url("L2.jpg");
+     background-size: 100%;
+     font-size: 30px;
+     
+ }
+ div
+ {
+     transform: translate(0px,50px);
+     border-style: solid;
+    color: #d8bebe;
+    height: 150px;
+    width: 600px;
+    background-color: rgb(63,22,33,0.7);
+    padding-top: 50px;
+    
+ }
+ 
+     
+ 
+ 
+input
+{
+    background-color: #d8bebe
+}
+.b1
+{
+   background-color: #e7e7e7; 
+   color: #3f1621;
+   font-size: 20px;
+   height: 40px;
+   width: 150px    
+}
+td
+{
+    height: 40px;
+    width: 150px
+}
+legend,form
+{
+    color: #d8bebe;
+    background-color: rgb(63,22,33,0.7);
+    font-size: 25px;
+}
+fieldset
+{   transform: translate(0px,50px);
+    border-color: #3f1621;
+}
+button
+{
+    color: #d8bebe;
+    background-color: #3f1621;
+    font-size: 20px;
+    height: 40px;    
+}
